@@ -6,9 +6,11 @@
 }
 
 header {
-  border-bottom: 1px solid black;
-  box-shadow: 10px #888888;
-  margin: 30px;
+  padding: 20px 35px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 nav {
@@ -43,39 +45,26 @@ nav a {
   transition: 0.25s ease-in-out;
 }
 
-nav a:hover {
-  color: rgb(220, 120, 0);
-}
 
 section {
-    padding: 60px;
-  }
+  padding: 60px;
+}
 
-#primary{
- background-image: url('./assets/images/carousel/download.jpg');
+.primary {
   background-size: cover;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
   background-attachment: fixed;
-  background-position: 80%;
-
+  background-position: 10 0%;
 }
 
-#primary-cta{
-    width: 35%;
-    text-align: right;
-    margin: 3.5%;
-    font-size: 18px;
-    line-height: 1.2;
-}
-
-#primary-donate{
-    border: 3px solid black;
-    padding: 20px;
-    width: 40%;
-    margin: 3.5%;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+#primary-donate {
+  border: 3px solid black;
+  padding: 20px;
+  width: 40%;
+  margin: 3.5%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
 }
