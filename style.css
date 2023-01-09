@@ -58,16 +58,9 @@ section {
   box-shadow: 0 0 10px rgb(0 0 0 / 50%);
 }
 
-#about-us-title {
+#section-title {
   text-align: center;
   border-top: 1px solid black;
   padding: 15px;
   margin: 15px;
-}
-
-#event-title {
-    text-align: center;
-    border-top: 1px solid black;
-    padding: 15px;
-    margin: 15px;
 }
