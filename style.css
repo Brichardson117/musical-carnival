@@ -6,7 +6,6 @@
 }
 
 header {
-  padding: 20px 35px;
   background-color: whitesmoke;
   display: flex;
   justify-content: space-between;
@@ -49,15 +48,6 @@ section {
   padding: 60px;
 }
 
-.primary {
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  background-attachment: fixed;
-  background-position: 10 0%;
-}
 
 #primary-donate {
   border: 3px solid black;
@@ -70,7 +60,14 @@ section {
 
 #about-us-title {
   text-align: center;
-  border-bottom: 1px solid black;
+  border-top: 1px solid black;
   padding: 15px;
   margin: 15px;
+}
+
+#event-title {
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 15px;
+    margin: 15px;
 }
