@@ -45,7 +45,6 @@ nav a {
   transition: 0.25s ease-in-out;
 }
 
-
 section {
   padding: 60px;
 }
@@ -67,4 +66,11 @@ section {
   margin: 3.5%;
   border-radius: 15px;
   box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+#about-us-title {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 15px;
+  margin: 15px;
 }
