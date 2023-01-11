@@ -47,7 +47,6 @@ section {
   padding: 60px;
 }
 
-
 #primary-donate {
   border: 3px solid black;
   padding: 20px;
@@ -62,4 +61,43 @@ section {
   border-top: 1px solid black;
   padding: 15px;
   margin: 15px;
+}
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.book {
+  background-image: url(./assets/images/events/image0.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border: 1px solid black;
+}
+.foodDrive {
+  background-image: url(./assets/images/events/image1.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border: 1px solid black;
+}
+
+.clothes {
+  background-image: url(./assets/images/events/image2.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border: 1px solid black;
+}
+
+.tutoring {
+  background-image: url(./assets/images/events/image3.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border: 1px solid black;
 }
